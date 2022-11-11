@@ -1,0 +1,922 @@
+/* All Common CSS Start  */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a,a:hover{
+    text-decoration: none;
+    display: inline-block;
+}
+ul,ol{
+    list-style-type: none;
+    padding-left: 0px!important;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+img{
+    vertical-align: middle;
+}
+/* All Common CSS End  */
+
+/* nav CSS part Start  */
+nav{
+    background: transparent;
+}
+.navbar{
+    position: fixed;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+.nav__link{
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: 600;
+    margin-right: 45px;
+    text-transform: capitalize;
+}
+.nav__angle{
+   margin-left: 8px;
+}
+.nav__link:hover{
+    color: black!important;
+}
+
+.nav__login{
+    margin-left: 216px;
+    margin-right: 36px;
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.nav__link--btn{
+    padding: 17px 28px!important;
+    background: white;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-right: -12px;
+    line-height: 15px;
+}
+.dropdown-toggle::after {
+	display: none;
+}
+/* nav CSS part End  */
+
+/* banner CSS part Start  */
+#banner{
+    background: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 186px 0px 150px 0px;
+    margin-right: -12px;
+    position: relative;
+}
+.banner__headding{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 74px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    width: 644px;
+}
+.banner__para{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    padding: 24px 0px 40px;
+    width: 539.84px;
+}
+.banner__btn{
+    background: #FD5F36;
+    color: white;
+}
+.banner__com{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding: 50px 0px 72px;
+}
+.banner__sign{
+    font-weight: 700;
+    color: #52C5B6;
+}
+.bv-2{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.banner__review{
+    margin-left: 174px;
+}
+.circle-main{
+    position: relative;
+}
+
+.bv-2{
+    position: absolute;
+    top: -159px;
+    left: 188px;
+}
+.bv-3{
+    position: absolute;
+    top: -103px;
+    left: 481px;
+}
+.circle{
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    top: 6;
+    left: -176px;
+    background: #C4C4C4;
+    border: 1px solid white;
+    box-sizing: border-box;
+}
+.circle2{
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    top: 6;
+    left: -150px;
+    background: #C4C4C4;
+    border: 1px solid white;
+    box-sizing: border-box;
+}
+.circle3{
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    top: 6;
+    left: -124px;
+    background: #C4C4C4;
+    border: 1px solid white;
+    box-sizing: border-box;
+}
+.circle4{
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    top: 6;
+    left: -98px;
+    background: #C4C4C4;
+    border: 1px solid white;
+    box-sizing: border-box;
+}
+.banner-info-box{
+    position: relative;
+}
+.play{
+    position: absolute;
+    bottom: -147px;
+    left: 396px;
+    padding: 50px;
+    background: #373B59;
+    width: 220px;
+}
+.banner__play{
+    font-size: 45px;
+    color: rgba(255, 255, 255, 0.774);
+    border: 37px solid rgba(253, 253, 253, 0.2);
+    border-radius: 50%;
+}
+.banner__num{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 26px;
+    color: #52C5B6;
+    display: inline-block;
+}
+
+.banner__star{
+ color: #FDB400;
+ font-size: 18px;
+ border-left: 2px solid rgba(245, 245, 245, 0.4);
+ padding-left: 11px;
+}
+.banner__review-num{
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.bv-1{
+    position: absolute;
+    top: 150px;
+    left: 0;
+}
+
+.bv-4{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+/* banner CSS part End  */
+
+
+/*  about CSS part Start  */
+#about{
+    margin: 150px 0px 125px 0px;
+}
+.about__img{
+    margin-left: 25px;
+}
+.about_content{
+    margin-top: 130px;
+    margin-left: 90px;
+}
+.about__intro{
+   font-family: 'Poppins';
+   font-weight: 600;
+   font-size: 20px;
+   text-transform: uppercase;
+   color: #FD5F36;
+   padding-bottom: 10px;
+}
+.about__heading{
+   font-family: 'Poppins';
+   font-weight: 600;
+   font-size: 48px;
+   line-height: 62px;
+   text-transform: capitalize;
+   color: #30344E;
+}
+.about__para{
+font-family: 'Inter';
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+text-transform: capitalize;
+color: #5B5F77;
+padding: 20px 0px;
+}
+.about__list{
+font-family: 'Inter';
+font-weight: 400;
+font-size: 18px;
+color: #30344E;
+line-height: 32px;
+}
+.about__ul{
+    padding-left: 0px!important;
+    margin-bottom: 30px;
+}
+.about__icon{
+    font-size: 12px;
+    padding: 8px 5px;
+    background-color: rgb(220, 243, 240);
+    border-radius: 50%;
+    margin-right: 12px;
+
+}
+.innovate__btn{
+font-family: 'Nunito';
+font-weight: 600;
+font-size: 18px;
+text-transform: capitalize;
+color: #FFFFFF;
+background: #FD5F36;
+border-radius: 5px;
+padding: 14px 28px;
+}
+/* about CSS part End  */
+
+
+/* service  CSS part Start  */
+#service{
+    margin: 120px 0px;
+}
+.service-box{
+    margin-top: 50px;
+}
+.service__item{
+    padding: 40px 24px;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 130px -2px rgba(7, 85, 80, 0.3);
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+.service__item:hover{
+    border-bottom: 15px solid rgba(255, 0, 0, 0.7);
+    box-sizing: border-box;
+}
+.serviceItem__icon{
+    padding: 14px;
+    border: 1px solid #F44C4C;
+    border-radius: 50%;
+    width: 113px;
+    height: 113px;
+    margin-bottom: 30px;
+    margin-left: 86px;
+    position: relative;
+}
+.service__img{
+    padding: 22px;
+    background: #F44C4C;
+    text-align: center;
+    border-radius: 50%;
+}
+.serviceItem__icon::before{
+    position: absolute;
+    content: "";
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    background-color: #F44C4C;
+    bottom: 18px;
+    left: 1px;
+}
+.serviceItem__headding{
+font-family: 'Poppins';
+font-weight: 600;
+font-size: 20px;
+line-height: 28px;
+text-align: center;
+color: #30344E;
+padding-bottom: 15px;
+}
+.serviceItem__paragraph{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #5B5F77;
+}
+/* service CSS part End  */
+
+
+/* solution CSS part Start  */
+#solution{
+    margin: 170px 0px;
+}
+.solution__para{
+font-family: 'Inter';
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+text-transform: capitalize;
+color: #5B5F77;
+width: 74%;
+padding-top: 20px;
+padding-bottom: 40px;
+}
+.solution-invest{
+    margin-top: 70px;
+}
+.solution-invest__headding{
+    font-family: 'Poppins';
+font-weight: 600;
+font-size: 24px;
+line-height: 32px;
+text-transform: capitalize;
+color: #30344E;
+}
+.solution-invest__para{
+    font-family: 'Inter';
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+text-transform: capitalize;
+color: #5B5F77;
+width: 258px;
+padding-top: 15px;
+}
+.solution__photo{
+    position: relative;
+}
+.solution__year{
+    background: #52C5B6;
+    padding: 24px 25px;
+    display: flex;
+    width: 361px;
+    position: absolute;
+    bottom: 0px;
+    right: 91px;
+}
+.solutionYear__headding{
+    font-family: 'Poppins';
+font-weight: 700;
+font-size: 70px;
+color: #FFFFFF;
+padding-right: 12px;
+}
+.solutionYear__para{
+    font-family: 'Poppins';
+font-weight: 600;
+font-size: 24px;
+line-height: 25px;
+color: #FFFFFF;
+position: relative;
+}
+.solutionYear__para::before {
+	position: absolute;
+	content: "";
+	height: 2px;
+	width: 115px;
+	background-color: white;
+	top: 13px;
+	left: 80px;
+}
+.image-icon{
+    position: absolute;
+    top: 75px;
+    left: 115px;
+}
+/* solution CSS part End  */
+
+
+/*  expert CSS part Start  */
+.expert{
+    background: #30344E;
+    position: relative;
+}
+.expert-vec-1{
+    position: absolute;
+    top: -40px;
+    left: 0px;
+    width: 33%;
+}
+.expert-vec-2{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.expert-content{
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 220px;
+}
+.expert__headding{
+    color: aliceblue;
+}
+.expert__name{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 18px;
+    color: #30344E;
+    line-height: 27px;
+    position: relative;
+    transition: 0.4s;
+}
+.expert__name::after{
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 32px;
+    background: #52C5B6;
+    top: 13px;
+    left: -50px;
+    transition: 0.4s;
+}
+.expert-item{
+    position: relative;
+    background: url(../images/expert.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 374px;
+    margin-top: -160px;
+}
+.expert__favicon{
+    font-size: 16px;
+    color: #5B5F77;
+    padding: 14px;
+    border-radius: 50%;
+    background: white;
+    margin-bottom: 16px;
+}
+.expert__icon ul li{
+    text-align: end;
+    margin-right: 27px;
+}
+.expert__icon ul{
+    position: absolute;
+    top: 115px;
+    right: 0;
+}
+
+.expert__intro{
+    padding: 22px 46px 22px 65px;
+    background-color: white;
+    border-top-right-radius: 20px;
+    width: 230px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.4s;
+}
+.expert__title{
+font-family: 'Inter';
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+color: #5B5F77;
+opacity: 0.7;
+transition: 0.4s;
+}
+.expert__plus{
+    font-size: 16px;
+    color: #5B5F77;
+    padding: 16px;
+    border-radius: 50%;
+    background: white;
+    position: absolute;
+    bottom: 32px;
+    right: 25px;
+}
+.expert-item:hover .expert__plus{
+    background: #52C5B6;
+    rotate: 45deg;
+    color: white;
+}
+.expert__link{
+  opacity: 0;
+  transition: 0.4s;
+}
+.expert-item:hover .expert__link{
+    opacity: 1;
+}
+.expert-item:hover .expert__intro{
+    background: #52C5B6;
+    border-bottom: 10px solid #52C5B6;
+}
+.expert-item:hover .expert__name{
+    color: white;
+}
+.expert-item:hover .expert__title{
+    color: rgba(255, 255, 255, 0.795);
+}
+.expert-item:hover .expert__name::after{
+    background-color: white;
+}
+/* expert CSS part End  */
+
+
+/* platform CSS part Start  */
+#platform{
+    margin: 190px 0px 140px 0px;
+}
+.platform__img{
+    margin-left: -50px;
+}
+.platform__heading{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 47px;
+    line-height: 62px;
+    text-transform: capitalize;
+    color: #30344E;
+    padding-bottom: 50px;
+}
+.platform__box{
+font-family: 'Poppins';
+font-weight: 600;
+font-size: 20px;
+line-height: 34px;
+text-transform: capitalize;
+color: #5B5F77;
+padding: 18px 30px;
+border: 1px solid #D6D8E8;
+border-radius: 5px;
+margin-bottom: 16px;
+}
+.platform__box--plus{
+    color: #D6D8E8;
+    font-size: 30px;
+    padding: 18px 0px 18px 214px;
+    line-height: 34px;
+    vertical-align: middle;
+}
+.platform-company{
+    border: 1px solid #52C5B6;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 16px;
+}
+.platform-com{
+    background: #52C5B6;
+    color: white;
+    border: 1px solid #52C5B6;
+    box-sizing: border-box;
+}
+.platformCom__para{
+    padding: 10px 30px 30px 30px;
+    font-family: 'Inter';
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+text-transform: capitalize;
+color: #5B5F77;
+
+}
+/* platform CSS part End  */
+
+/*  trust CSS part Start  */
+#trust{
+    padding: 110px 120px;
+    background-color: #52C5B6;
+    position: relative;
+}
+.trust__headding{
+    font-family: 'Poppins';
+font-weight: 600;
+font-size: 38px;
+line-height: 54px;
+text-transform: capitalize;
+color: #FFFFFF;
+padding-bottom: 40px;
+}
+.trust-count{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.trustCount__num{
+font-family: 'Poppins';
+font-weight: 600;
+font-size: 60px;
+color: #FFFFFF;
+}
+.trustCount__title{
+font-family: 'Inter';
+font-weight: 400;
+font-size: 20px;
+color: #FFFFFF;
+padding-top: 25px;
+}
+.trust_brand{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-left: 35px;
+}
+.trust-vector-2{
+    position: absolute;
+    bottom: 1;
+    left: 0;
+}
+.trust-vector-1{
+    position: absolute;
+    top: 2px;
+    right: 4px;
+}
+/* trust CSS part End  */
+
+/* customer CSS part Start  */
+#customer{
+    margin: 125px 0px;
+}
+.customer-card{
+    padding: 50px 60px;
+    margin-top: 60px;
+    margin-right: 29px;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 130px -2px rgba(7, 85, 80, 0.07);
+    border-radius: 10px;
+}
+.customer-card__para{
+font-family: 'Inter';
+font-weight: 400;
+font-size: 24px;
+line-height: 46px;
+text-transform: capitalize;
+color: #6C6E81;
+}
+.customer__ul{
+    display: flex;
+    margin-top: 55px;
+}
+.customer__circle{
+    font-size: 82px;
+    color: #C4C4C4;
+}
+.customer__intro{
+   padding: 20px 232px 0px 30px;
+}
+.customer__name{
+    font-family: 'Poppins';
+font-weight: 600;
+font-size: 24px;
+color: #30344E;
+padding-bottom: 10px;
+}
+.customer__policy{
+font-family: 'Inter';
+font-weight: 400;
+font-size: 16px;
+color: #30344E;
+opacity: 0.8;
+}
+.customer__star{
+    color: #FFC34C;
+    font-size: 27px;
+    margin-top: 47px;
+
+}
+/* customer CSS part End  */
+
+
+/*  blog CSS part Start  */
+#blog{
+    margin: 125px 0px;
+}
+.blog__headding{
+    text-align: center;
+}
+.blogContant{
+    margin-top: 60px;
+}
+.blogItem__headding{
+font-family: 'Inter';
+font-weight: 600;
+font-size: 24px;
+line-height: 34px;
+color: #3F3C5C;
+padding: 20px 0px 10px 0px;
+}
+.blogItem__para{
+font-family: 'Inter';
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+color: #575470;
+padding-bottom: 18px;
+}
+.blog__ul{
+    display: flex;
+    padding-left: 0px!important;
+}
+.item__circle{
+    font-size: 52px;
+    color: #C4C4C4;
+}
+.item__name{
+font-family: 'Inter';
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #9C9BA9;
+padding: 0px 99px 0px 20px;
+line-height: 52px;
+vertical-align: middle;
+}
+.item__calender{
+    font-size: 20px;
+    color: #9C9BA9;
+    line-height: 52px;
+vertical-align: middle;
+}
+.item__date{
+font-family: 'Inter';
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #9C9BA9;
+padding-left: 30px;
+line-height: 52px;
+vertical-align: middle;
+}
+/* blog CSS part End  */
+
+
+/* footer CSS part Start  */
+footer{
+    padding: 110px 0px 30px 0px;
+    background: #30344E;
+}
+.footer{
+   border-bottom: 4px solid rgb(80, 84, 104);
+   padding-bottom: 40px;
+}
+.foot-1 p{ 
+font-family: 'Nunito';
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+color: #FFFFFF;
+padding-top: 26px;
+padding-bottom: 24px;
+
+}
+.foot1__ul{
+    display: flex;
+    padding-left: 0px!important;
+}
+.foot1__icon{
+    font-size: 18px;
+    padding: 10px 12px;
+    border-radius: 50%;
+    color: #2B3044;
+    background-color: rgb(238, 238, 238);
+    margin-right: 7px;
+}
+.foot-2 h4{
+font-family: 'Inter';
+font-weight: 500;
+font-size: 18px;
+color: #52C5B6;
+padding-bottom: 30px;
+}
+.foot2__margin{
+    margin-left: 50px;
+}
+.foot-2 ul{
+    padding-left: 0px;
+}
+.foot-2 ul li{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding-bottom: 15px;
+}
+.foot2__para{
+font-family: 'Inter';
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #FFFFFF;
+padding-bottom: 32px;
+position: relative;
+}
+input[type=email]{
+    width: 83%;
+    padding: 16px 0px 16px 18px;
+    border-radius: 10px;
+    
+  }
+::placeholder {
+font-family: 'Poppins';
+font-weight: 400;
+font-size: 15px;
+color: #A1A2A3;
+}
+.footerInput__icon {
+	font-size: 18px;
+	color: #FFFFFF;
+	padding: 15px 14px;
+	background: #FD5F36;
+	border-radius: 10px;
+	margin-left: -59px;
+}
+.footerEnd__para{
+font-family: 'Inter';
+font-weight: 400;
+font-size: 14px;
+color: #FFFFFF;
+opacity: 0.8;
+padding-top: 30px;
+}
+/* footer CSS part End  */
+
+
+
+
+
+
+
+
+
+
+/*  extra CSS part Start  */
+
+/* extra CSS part End  */
+
+
+
+
+
+
+
+
+
+
+/*  CSS part Start  */
+/* CSS part End  */

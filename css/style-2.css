@@ -1,0 +1,14 @@
+.carousel-item img{
+    width: 100%;
+    height: 500px;
+} 
+.carousel-indicators button{
+    width: 10px!important;
+    height: 10px!important;
+    background: #DBDBDB;
+    border-radius: 50%;
+}
+
+.carousel-indicators .active{
+    background: #FD5F36;
+}
